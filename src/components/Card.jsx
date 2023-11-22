@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import "../assets/styles/Card.css";
 
 function Card(props) {
   return (
