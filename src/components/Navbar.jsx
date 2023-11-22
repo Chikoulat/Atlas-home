@@ -1,5 +1,3 @@
-import "../assets/styles/navBar.css";
-
 function Navbar() {
   return (
     <header className="d-flex align-items-center p-5">
