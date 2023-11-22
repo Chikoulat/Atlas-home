@@ -1,0 +1,10 @@
+.filter {
+    background-color: #30475e;
+    color: var(--primary);
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+input {
+    margin: 10px;
+}
