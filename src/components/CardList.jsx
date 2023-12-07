@@ -8,7 +8,7 @@ function CardList({ data }) {
   const [checkboxHome, setCheckboxHome] = useState(false);
   const [checkboxApartment, setCheckboxApartment] = useState(false);
   const [checkboxVilla, setCheckboxVilla] = useState(false);
-  console.log(checkboxApartment);
+
   if (checkboxHome) {
     return (
       <>
@@ -141,9 +141,5 @@ function CardList({ data }) {
     </>
   );
 }
-
-CardList.propTypes = {
-  data: PropTypes.string.isRequired,
-};
 
 export default CardList;
